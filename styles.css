@@ -1,0 +1,116 @@
+a {
+  text-decoration: none;
+  color: hsl(245, 75%, 52%);
+}
+
+body, html {
+  height: 100%;
+}
+
+.bg {
+  background-image: url("images/pattern-background-desktop.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding:4rem 0 3rem;
+}
+
+.btn {
+  background-color: hsl(245, 75%, 52%);
+  color: #fff;
+  width: 20rem;
+  margin: 1.5rem auto 0;
+  border-radius: 10px;
+}
+
+.btn:hover {
+  background-color: hsl(224, 23%, 55%);
+  color: #fff;
+}
+
+.container-fluid {
+  overflow: hidden;
+  width: 24rem;
+  background-color: #fff;
+  height: 37rem;
+  border-radius: 14px;
+  padding: 0;
+  box-shadow: -1px 2px 3px #DDDDDD;
+}
+
+.cancel {
+  position: relative;
+  bottom: 1rem;
+  text-align: center;
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: hsl(224, 23%, 55%);
+}
+
+.cancel:hover {
+  color: HSL(223, 47%, 23%);
+}
+
+.footer p {
+  text-align: center;
+  text-decoration: none;
+}
+
+h4 {
+  padding-top: 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  color: HSL(223, 47%, 23%);
+}
+
+.music-icon {
+  padding: 1rem 1rem 0 1.5rem;
+  float: left;
+}
+
+.price {
+  background-color: hsl(225, 100%, 98%);
+  width: 20rem;
+  height: 5rem;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.price p {
+  color: hsl(224, 23%, 55%);
+}
+
+.price a {
+  padding-right: 1.5rem;
+  color: hsl(245, 75%, 52%);
+  font-size: 0.8rem;
+  font-weight: 700;
+  float: right;
+  position: relative;
+  top: 2rem;
+  text-decoration: underline;
+}
+
+.price a:hover {
+  color: hsl(224, 23%, 55%);
+  text-decoration: none;
+}
+
+.top-illustration {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.title {
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: HSL(223, 47%, 23%);
+  margin: 2rem 0 1.5rem;
+}
+
+.tagline {
+  color: hsl(224, 23%, 55%);
+  text-align: center;
+  padding: 0 2.8rem;
+}
